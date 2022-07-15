@@ -38,3 +38,50 @@ footer p {
     padding-top: 14px;
     padding-bottom: 14px;
 }
+.arrow-icon {
+    width: 70px;
+    border-radius: 80px;
+    
+}
+.arrow-icon:hover {
+    -webkit-filter: drop-shadow(3px 3px 3px #29292960);
+    filter: drop-shadow(3px 3px 3px  #29292960);
+    
+}
+.btn-config {
+    height: 80%;
+    background-color: #5ab1c4;
+    color: white;
+    margin: 10px;
+}
+.btn-config:hover {
+    color: #fcfac7;
+    background-color: #87cbd9;
+}
+.titulo-aba {
+        -webkit-filter: drop-shadow(3px 3px 3px #5ab1c4);
+    filter: drop-shadow(3px 3px 3px  #5ab1c4);
+}
+.tabela-alunos {
+    box-shadow: 2px 2px 2px 1px #2d2d2d2f; 
+    margin: 40px 0px 100px 0px;
+    border: 2px solid;
+    border-color: white;  
+}
+th, td {
+    border: 2px solid;
+    border-color: white;
+  }
+thead {
+    background-color:#5ab1c4;
+    text-align: center;
+    color: white;
+}
+tbody tr:nth-child(odd) {
+    background:  #ffffeb;
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background: #fcfac7;
+    text-align: center
+}
